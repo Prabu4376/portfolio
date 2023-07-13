@@ -1,0 +1,149 @@
+.banner_section{
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+}
+.video_part{
+    position:absolute;
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+.head{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 95px;
+    font-weight: 600;
+    z-index: 3;
+    position: absolute;
+    left: 31px;
+    top: 20px;
+    color: #fff;
+    transform: scale(0);
+}
+.para{
+    position: absolute;
+    left: 30px;
+    top: 110px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    width: 100%;
+    transform: scale(0);
+}
+.para span{
+    left: -18px;
+    position: absolute;
+    top: 26px;
+}
+.btn{
+    font-weight: 700;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(118, 176, 88);
+    border-radius: 3px;
+    line-height: 0px;
+    bottom: 16px;
+    left: 15px;
+    padding: 15px 19px;
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0;
+}
+.logo{
+    position: absolute;
+    right: 19px;
+    bottom: 8px;
+    width: 115px;
+}
+.icon-2{
+    top: 14px;
+    left: 18px;
+    position: absolute;
+    width: 83px;
+    transform: scale(0);
+}
+.icon-1{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    width: 187px;
+    transform: scale(0);
+}
+
+
+/* Animation Part */
+
+
+.head-animate{
+    animation:zoom-animate 0.3s forwards;
+}
+.para-animate{
+    animation:zoom-animate 0.3s forwards;
+}
+.btn-animate{
+    animation:btn-animate 0.5s forwards;
+}
+.icon-animate{
+    animation:zoom-animate-inner 0.5s forwards;
+}
+.hide-animate{
+    animation:hide-animate 0.5s forwards;
+}
+
+
+@keyframes zoom-animate{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+} 
+@keyframes hide-animate{
+    0%{
+       transform: scale(1);
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+        transform: scale(0);
+    }
+} 
+
+@keyframes btn-animate{
+    0%{
+       opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} 
+@keyframes zoom-animate-inner{
+    0%{
+        transform: scale(0);
+    }
+    70%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform: scale(1);
+    }
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+

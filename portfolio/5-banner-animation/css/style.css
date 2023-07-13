@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+}
+.slider_section{
+    width: 300px;
+    height: 250px;
+    margin: 20px auto 0;
+    overflow: hidden;
+    position: relative;
+}
+.slide-1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 250px;
+    background: url(../images/man-phone-cropped.jpg) no-repeat;
+    background-size: cover;
+}
+.slide-1-inner{
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   z-index: 2;
+   width: 300px;
+   height: 100px;
+}
+.slide-1-inner:after{
+    content: "";
+    position: absolute;
+    left: -4px;
+    bottom: -20px;
+    width: 324px;
+    height: 109px;
+    transform: rotate(-6deg);
+    background: linear-gradient(to bottom,rgba(14,188,220,1),rgba(0,102,142,1));
+    z-index: 2;
+}
+.slide-1-inner img{
+    position: absolute;
+    left: 20px;
+    bottom: 22px;
+    width: 74px;
+    z-index: 3;
+}
+.head-1{
+    position: absolute;
+    left: 20px;
+    top: 17px;
+    z-index: 3;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0;
+}
+
+.head-2{
+    position: absolute;
+    left: 20px;
+    top: 17px;
+    z-index: 2;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0;
+}
+
+.item1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 180px;
+    background: #000;
+    z-index: 1;
+    opacity: 0;
+}
+.item2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 180px;
+    background: #000;
+    z-index: 1;
+    opacity: 0;
+}
+.icon1{
+    position: absolute;
+    left: 31px;
+    top: 35px;
+    width: 68px;
+    opacity: 0;
+}
+.icon2{
+    position: absolute;
+    left: 31px;
+    top: 35px;
+    width: 68px;
+    opacity: 0;
+}
+.inner_text_1{
+    position: absolute;
+    left: 116px;
+    top: 55px;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 23px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0;
+}
+.inner_text_2{
+    position: absolute;
+    left: 116px;
+    top: 55px;
+    color: #fff;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 23px;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0;
+}
+
+.slide-2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 250px;
+    background:linear-gradient(to bottom,rgba(14,188,220,1),rgba(0,102,142,1));
+    z-index: 9;
+    opacity: 0;
+}
+/*.btm_logo{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+}*/
+.btm_logo img{
+    width: 73px;
+}
+
+.btn{
+    background: url(../images/btn_img.jpg) no-repeat;
+    width: 209px;
+    padding: 10px 8px;
+    position: absolute;
+    top: 66px;
+    left: 22px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+}
+.detail_part{
+    position: absolute;
+    left: 25px;
+    top: 116px;
+    font-size: 12px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.ft_logo{
+    position: absolute;
+    left: 20px;
+    bottom: 22px;
+}
+.sec_logo{
+    position: absolute;
+    left: 100px;
+    bottom: 15px;
+}
+.para{
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+/*  Animation Part */
+
+.head-animate-1{
+    animation: head_animation_1 1s forwards;
+}
+.head-animate-1-hide{
+    animation: head_animation_hide 1s forwards;
+}
+.head-animate-2{
+    animation: head_animation_2 1s forwards;
+}
+.head-animate-2-hide{
+    animation: head_animation_hide 1s forwards;
+}
+.item1-animate{
+    animation: item1-animate 1s forwards;
+}
+.item1-animate-hide{
+    animation: item1-animate-hide 1s forwards;
+}
+.icon-animate{
+    animation: icon-animate 1s forwards;
+}
+.icon-animate-hide{
+    animation: icon-animate-hide 1s forwards;
+}
+.text-animate{
+    animation: text-animate 1s forwards;
+}
+.text-animate-hide{
+    animation: text-animate-hide 1s forwards;
+}
+.slide-2-animate{
+    animation: slide2-animate 1s forwards;
+}
+

@@ -1,0 +1,163 @@
+@keyframes animate-1{
+   0%{
+        right: -240px;
+    }
+    100%{
+        right: -1px;
+    }
+}
+@keyframes animate-1-repeat{
+   0%{
+        right: -1px;
+    }
+    100%{
+        right: -240px;
+    }
+}
+@keyframes animate-2{  
+    0%{
+        left: -140px;
+    }
+    100%{
+        left: -2px;
+    }
+}
+@keyframes animate-2-repeat{  
+    0%{
+        left: -2px;
+    }
+    100%{
+        left: -140px;
+    }
+}
+@keyframes animate-3{
+    0%{ 
+        right: -239px;
+    }
+    100%{
+        right: -4px;
+    }
+}
+@keyframes animate-3-repeat{
+    0%{ 
+        right: -4px;
+    }
+    100%{
+        right: -239px;
+    }
+}
+@keyframes animate-4{
+    0%{
+        left: -239px;
+    }
+    100%{
+        left: -23px;
+    }
+}
+@keyframes animate-4-repeat{
+    0%{
+        left: -23px;
+    }
+    100%{
+        left: -239px;
+    }
+}
+@keyframes animate-5{
+    0%{
+        bottom:-150px;
+    }
+    100%{
+        bottom: 165px;
+    }
+}
+@keyframes animate-6{
+    0%{
+        bottom:-160px;
+    }
+    100%{
+        bottom:80px;
+    }
+}
+@keyframes animate-7{
+    0%{
+        bottom:-160px;
+    }
+    100%{
+        bottom: 100px;
+    }
+}
+@keyframes animate-8{
+    0%{
+        bottom:-160px;
+    }
+    100%{
+        bottom: 80px;
+    }
+}
+@keyframes animate-9{
+    0%{
+        bottom:-60px;
+    }
+    100%{
+        bottom: 7px;
+    }
+}
+@keyframes animate-5-animate-repeat{
+    0%{
+        bottom:150px;
+    }
+    100%{
+        bottom: -150px;
+    }
+}
+@keyframes animate-6-animate-repeat{
+    0%{
+        bottom:80px;
+    }
+    100%{
+        bottom: -130px;
+    }
+}
+@keyframes animate-7-animate-repeat{
+    0%{
+        bottom:100px;
+    }
+    100%{
+        bottom: -130px;
+    }
+}
+@keyframes animate-8-animate-repeat{
+    0%{
+        bottom:80px;
+    }
+    100%{
+        bottom: -130px;
+    }
+}
+@keyframes animate-9-animate-repeat{
+    0%{
+        bottom:7px;
+    }
+    100%{
+        bottom: -130px;
+    }
+}
+@keyframes show{
+    0%{
+        bottom: -300px;
+    }
+    100%{
+        bottom: 0;
+        z-index: 3;
+    }
+}
+@keyframes show-repeat{
+    0%{
+        bottom: 0px;
+        z-index: 3;
+    }
+    100%{
+        z-index: 0;
+        bottom: -300px;
+    }
+}

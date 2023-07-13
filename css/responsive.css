@@ -1,0 +1,668 @@
+@media only screen and (min-width: 360px){
+  .container{
+    padding: 0;
+  }
+  p{
+    font-size: 14px;
+  }
+  .total_section .left_details{
+    display: none;
+  }
+  .manu_bar ul li a.active{
+    background: transparent;;
+  }
+  .my_img_part{
+    display: none;
+  }
+  .about_section{
+    padding: 30px 20px 60px;
+  }
+  .page_title h2{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .page_title h2 i{
+    font-size: 20px;
+  }
+  .personal_details table tr td.wd-60{
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+  .personal_details table tr td.wd-30{
+    font-size: 14px;
+  }
+  .skill_section{
+    padding: 30px 20px 60px;
+  }
+  .my_skills_part{
+    padding: 50px 30px;
+  }
+  .my_skills_part .item .padd-rt-0{
+    padding: 0;
+  }
+  .my_skills_part .item .padd-lt-0{
+    padding: 0;
+  }
+  .my_skills_part .item h4{
+    margin-bottom: 40px;
+  }
+  .lang_skills_sec .rt_item{
+    padding-top: 50px;
+    text-align: center;
+  }
+  .edu_cont .edu_list ul li:before{
+    display: none;
+  }
+  .bar_part:before{
+    display: none;
+  }
+  .edu_cont .edu_list ul li button{
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 80px;
+  }
+  .education_section{
+    padding: 30px 20px 50px;
+  }
+  .portfolio_section{
+    padding: 30px 20px 60px;
+  }
+  .portfolio_inner .item{
+    margin-bottom: 30px;
+  }
+  .contact_section{
+    padding:30px 20px 60px;
+  }
+  .contact_inner .item{
+    padding: 40px 20px;
+  }
+  .contact_form{
+    padding: 50px 20px;
+  }
+  .right_section{
+    position: relative;
+  }
+  .manu_bar{
+    position: fixed;
+    height: 100vh;
+    background: #fff;
+    left: -500px;
+    top: 0;
+    z-index: 9;
+    width: 0;
+    text-align: left;
+    transition: all 0.5s ease;
+  }
+  .manu_bar ul{
+    float: none;
+    padding-top: 20px;
+  }
+  .manu_bar ul li{
+    float: none;
+  }
+  .manu_bar ul li a{
+    display: block;
+    padding: 20px 80px;
+    color: rgba(0, 0, 0, 0.54);
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+  }
+  .manu_bar ul li a:after{
+  content: "";    
+    font-size: 18px;
+    position: absolute;
+    left: 40px;
+    top: 15px;
+    font-weight: 300;
+  }
+  .manu_bar ul li:nth-child(1) a:after{
+    content: "\f015";
+    font-family: FontAwesome;
+  }
+  .manu_bar ul li:nth-child(2) a:after{
+    content: "\f2c0";
+    font-family: FontAwesome;
+  }
+  .manu_bar ul li:nth-child(3) a:after{
+    content: "\f0eb";
+    font-family: FontAwesome;
+  }
+  .manu_bar ul li:nth-child(4) a:after{
+    content: "\f19d";
+    font-family: FontAwesome;
+  }
+  .manu_bar ul li:nth-child(5) a:after{
+    content: "\f0b1";
+    font-family: FontAwesome;
+  }
+  .manu_bar ul li:nth-child(6) a:after{
+    content:"\f003";
+    font-family: FontAwesome;
+  }
+  .manu_bar ul li a:hover{
+    background: none;
+  }
+  #search-btn{
+    display: none;
+  }
+  .total_section{
+    padding: 0;
+  }
+  .menu_icon{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .menu_icon i{
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+  }
+  .banner_section{
+    margin-top: 100px;
+  }
+  .banner_section .my_details a{
+    padding: 20px;
+  }
+  .lang_skills_sec .rt_item{
+    padding-top: 0;
+    text-align: left;
+  }
+  .my_img_mobile{
+    display: block;
+    text-align: center;
+    padding: 30px 0 40px;
+        border-bottom: 1px solid #f0f0f0;
+  }
+  .my_img_mobile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  .my_img_mobile h2{
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        color: #000;
+        padding-bottom: 10px;
+        text-transform: uppercase;
+        padding-top: 10px;
+  }
+  .my_img_mobile a{
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .toggle-menu{
+    width: 70%;
+    left: 0;
+  }
+  .contact_section{
+    margin-bottom: 30px;
+  }
+  .portfolio_inner{
+    padding:0 30px;
+  }
+  .portfolio_inner .item{
+    width: 100%;
+  }
+  .portfolio_inner .item:hover .hover_item i{
+    right: 0px;
+  }
+  .portfolio_inner .item{
+    height: auto;
+    margin: 0;
+  }
+  .logo{
+    width: 100px;
+  }
+  .logo a{
+    padding: 10px 30px;
+  }
+  .menu_icon{
+    right: 30px;
+  }
+  #header{
+    display: none;
+  }
+  #inner_menu {
+    background: #222;
+    margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 44;
+    width: 100%;
+  }
+  .footer_section .footer_icon{
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 360px) and (orientation: landscape){
+  .my_img_mobile{
+    padding: 10px 0;
+  }
+  .toggle-menu{
+    width: 50%;
+  }
+  .manu_bar ul{
+    padding-top: 10px;
+  }
+  .manu_bar ul li a{
+    padding: 10px 70px;
+    font-size: 14px;
+  }
+  .my_img_mobile img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .my_img_mobile h2{
+    padding: 5px 0;
+  }
+  .manu_bar ul li a:after{
+    top: 8px;
+  }
+  .portfolio_inner .row .col-xs-12{
+    width: 50%;
+  }
+  .portfolio_inner .item .img_part{
+    height: 250px;
+  }
+  .portfolio_inner .item .img_part img{
+    height: 100%;
+  }
+  #header{
+    display: none;
+  }
+  #inner_menu {
+    background: #222;
+    margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 44;
+    width: 100%;
+  }
+  .banner_section{
+    margin-top: 100px;
+  }
+  .footer_section .footer_icon{
+    width: 30%;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .container{
+    width: 100%;
+  }
+  .lang_skills_sec .rt_item{
+    text-align: left;
+  }
+  .my_skills_part .item .padd-rt-0{
+    padding-right: 15px !important;
+  }
+  .manu_bar ul li a{
+    padding: 30px 80px;
+  }
+  .manu_bar ul li a:after{
+    top: 27px;
+  }
+  .banner_section{
+    margin-top: 0px;
+  }
+  .toggle-menu{
+    width: 50%;
+    left: 0;
+  }
+  .portfolio_inner{
+    padding: 0 80px;
+  }
+  .portfolio_inner .item{
+    height: auto;
+  }
+  .my_skills_part .item .prograss{
+    width: 95%;
+  }
+  .portfolio_inner .item .img_part{
+    height: 250px;
+  }
+  .portfolio_inner .item .img_part img{
+    height: 100%;
+  }
+  .my_img_part{
+    display: block;
+  }
+  #header{
+    display: none;
+  }
+  #inner_menu {
+    background: #222;
+    margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 44;
+    width: 100%;
+  }
+  .banner_section{
+    margin-top: 100px;
+  }
+  .footer_section .footer_icon{
+    width: 30%;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  .container{
+    padding: 0 15px;
+    width: 100% !important;
+  }
+  p{
+    font-size: 16px;
+  }
+  .total_section .left_part{
+    height: 100vh;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 33;
+    float: left;
+    left:2%;
+    top: 50px;
+    scrollbar-width: none;
+    max-width: 100%;
+  }
+  .total_section .left_part::-webkit-scrollbar {
+    display: none;
+  }
+  .total_section .right_part{
+    float: right; 
+    height: 100vh;
+    max-width: 100%;
+  }
+  .manu_bar{
+    position: relative;
+    height: 0;
+    background: #222;
+    z-index: 9;
+    width: 100%;
+    left: 0;
+    height: 86px;
+  }
+  .total_section .left_details{
+    display: block;
+    width: 95%;
+  }
+  .toggle-menu{
+    width: 100%;
+    left: 0;
+  }
+  .menu_icon{
+    display: none;
+  }
+  .my_img_mobile{
+    display: none;
+  }
+  .manu_bar ul{
+    float: right;
+  }
+  .manu_bar ul li{
+    float: left;
+  }
+  .banner_section{
+    margin-top: 100px;
+  }
+  .manu_bar ul li a{
+    color: #fff;
+  }
+  .manu_bar ul li a:after{
+    display: none;
+  }
+  #inner_menu{
+    margin-bottom:  0;
+  }
+  .manu_bar ul li a{
+    padding: 35px 20px;
+  }
+  .manu_bar ul{
+    padding-top: 0;
+  }
+  .manu_bar ul li a.active{
+    background: #2396F7;
+  }
+  .manu_bar ul li a:hover{
+    background: #2396F7;
+  }
+  .user_detail h1{
+    font-size: 30px;
+  }
+  .social_details ul{
+    width: 65%;
+  }
+  .cv_btn a{
+    padding: 25px 30px;
+  }
+  .my_img_part{
+    display: block;
+  }
+  .lang_skills_sec  .item .rt_item{
+    padding-top: 0;
+  }
+  .my_skills_part .item .padd-rt-0{
+    padding-right: 15px !important;
+  }
+  .my_skills_part .item .padd-lt-0{
+    padding-left: 0px !important;
+  }
+  .right_section{
+    padding-left: 5%;
+  }
+  .page_title h2{
+    font-size: 40px;
+  }
+  .page_title h2 i{
+    font-size: 35px;
+  }
+  .my_skills_part .item .prograss{
+    width: 95%;
+  }
+  .my_skills_part{
+    padding: 50px;
+  }
+  .edu_cont .edu_list ul li:before{
+    display: block;
+  }
+  .bar_part:before{
+    display: block;
+  }
+  .edu_cont .edu_list ul li button{
+    padding-left: 80px;
+    cursor: pointer;
+  }
+  .edu_cont .edu_list ul li button strong{
+    font-weight: 700;
+  }
+  .education_section{
+    padding: 50px;
+  }
+  .about_section{
+    padding: 50px;
+  }
+  .skill_section{
+    padding: 50px;
+  }
+  .portfolio_section{
+    padding: 50px;
+  }
+  .contact_section{
+    padding: 50px;
+  }
+  .contact_form{
+    padding: 35px 20px;
+  }
+  .contact_inner .item{
+    padding: 40px 20px;
+  }
+  .portfolio_inner .item{
+    margin-bottom: 0px;
+  }
+  .total_section .left_details{
+    width: 90%;
+  }
+  .portfolio_inner{
+    padding: 70px;
+  }
+  .portfolio_inner .item .img_part{
+    height: 253px;
+  }
+  .portfolio_inner .item .img_part img{
+    height: 100%;
+  }
+  .contact_form .box #submit_btn{
+    height: 50px;
+    line-height: 50px;
+  }
+  .contact_form .box_lt:after{
+    top: 45px;
+  }
+  .logo a{
+    padding: 16px 30px;
+  }
+  #header{
+    display: none;
+  }
+  #inner_menu {
+    background: #222;
+    margin-bottom: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 44;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) and (orientation: landscape){
+  #header{
+    display: block;
+  }
+  #inner_menu{
+    position: static;
+    margin-top: 50px;
+  }
+  .banner_section{
+    margin-top: 0;
+  }
+  #header .manu_bar{
+    height: 0;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  
+  .container{
+    padding: 0;
+  }
+  .total_section{
+    width: 95%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .total_section .left_part{
+    height: 100vh;
+    overflow-x: hidden;
+    position: fixed;
+    z-index: 33;
+    float: left;
+    left:2%;
+    top: 50px;
+    scrollbar-width: none;
+    max-width: 100%;
+  }
+  .total_section .left_part::-webkit-scrollbar {
+    display: none;
+  }
+  .total_section .right_part{
+    float: right; 
+    height: 100vh;
+    margin-top: 50px;
+    max-width: 100%;
+  }
+  .total_section .left_details{
+    width: 100%;
+  }
+  .portfolio_inner .item:hover .hover_item i{
+    right: 0px;
+  }
+  .portfolio_inner .item{
+    width: 100%;
+    height: auto;;
+  }
+  .portfolio_inner{
+    padding: 0px;
+  }
+  .lang_skills_sec .rt_item{
+    padding-top: 0;
+  }
+  .user_detail{
+    padding: 80px 0;
+  }
+  .social_details{
+    padding: 80px 0;
+  }
+  .cv_btn{
+    padding: 80px 0;
+  }
+  .total_section .left_details{
+    height: 100vh;
+  }
+  .contact_form{
+    padding: 60px 50px;
+  }
+  .contact_form .box #submit_btn{
+    height: 70px;
+    line-height: 70px;
+  }
+  .contact_form .box_lt:after{
+    top: 55px;
+  }
+  .manu_bar ul li a{
+    padding: 35px 40px;
+  }
+  .portfolio_inner{
+    width: 800px;
+    margin: 0 auto;
+  }
+  .edu_cont .edu_list ul li button{
+    font-size: 20px;
+  }
+  .manu_bar ul li a{
+    padding: 35px;
+  }
+  .footer_section{
+    margin-bottom: 50px;
+  }
+  #inner_menu{
+    margin-top: 0;
+  }
+}
+@media only screen and (min-width: 1300px){
+  .portfolio_inner{
+    margin: 0 auto;
+    width: 870px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
